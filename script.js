@@ -72,7 +72,7 @@ function checkAnswer(currentLevel){
 }
 
 function music(musicColor){
-    audio = new Audio("./sounds/" + musicColor + ".mp3");
+    audio = new Audio(musicColor + ".mp3");
     audio.play();
 }
 
